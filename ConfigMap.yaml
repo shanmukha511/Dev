@@ -382,7 +382,7 @@ data:
         flush_interval 5s
       </filter>
       
-      <filter tail.containers.var.log.containers.*strimi-cluster-operator*.log>
+      <filter tail.containers.var.log.containers.*strimzi-cluster-operator*.log>
         @type concat
         key log
         timeout_label @SPLUNK
